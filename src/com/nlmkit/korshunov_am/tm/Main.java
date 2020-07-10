@@ -2,6 +2,8 @@ package com.nlmkit.korshunov_am.tm;
 
 import java.util.Arrays;
 
+import static com.nlmkit.korshunov_am.tm.TerminalConst.*;
+
 /**
  *  Тестовое приложение
  */
@@ -19,12 +21,18 @@ public class Main {
         if (args == null) return;
         if (args.length <1) return;
         final String param = args[0];
-        if ("version".equals(param)) displayVersion();
-        if ("about".equals(param)) displayAbout();
-        if ("help".equals(param)) displayHelp();
-        System.out.println("Unknown parameter values");
+        switch (param) {
+            case VERSION: displayVersion();
+            case ABOUT: displayAbout();
+            case HELP: displayHelp();
+            default:displayError(args);
+        }
+    }
+
+    private static void displayError(final String[] args){
+        System.out.println("Error! Unknown program argument.");
         System.out.println(Arrays.toString(args));
-        displayHelp();
+        System.exit(-1);
     }
 
     private static void displayWelcome(){
