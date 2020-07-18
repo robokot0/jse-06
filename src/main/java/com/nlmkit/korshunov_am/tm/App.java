@@ -7,7 +7,7 @@ import static com.nlmkit.korshunov_am.tm.TerminalConst.*;
 /**
  *  Тестовое приложение
  */
-public class Main {
+public class App {
 
     public static void main(String[] args) {
         run(args);
