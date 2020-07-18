@@ -23,16 +23,9 @@ Apache Maven 3
 |about|java -jar ./task-manager-1.0.0.jar about|Display developer info|
 |help|java -jar ./task-manager-1.0.0.jar help|Display list of command|
 |command line|java -jar ./task-manager-1.0.0.jar|Display console|
-## Application Launch Commands
-|Command|Command line|Description|
-|----------------|---------|---------|
-|version|java -jar ./task-manager-1.0.0.jar version|Display version|
-|about|java -jar ./task-manager-1.0.0.jar about|Display developer info|
-|help|java -jar ./task-manager-1.0.0.jar help|Display list of command|
-|dialogue mode|java -jar ./task-manager-1.0.0.jar|Display line to enter command|
 ## Application Commands
 |Command|CDescription|
-|----------------|---------|---------|
+|----------------|---------|
 |version|Display version|
 |about|Display developer info|
 |help|Display list of command|
