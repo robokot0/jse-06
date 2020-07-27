@@ -32,4 +32,4 @@ Apache Maven 3
 |exit|Terminare program|
 ## GIT
 `https://gitlab.com/robokot0/jse-06`  
-`https://github.com/robokot0/jse-06`
+`https://github.com/robokot0/jse-06`   
